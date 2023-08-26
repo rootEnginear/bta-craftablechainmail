@@ -1,33 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "craftablechainmail",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
-  "authors": [
-    "Turnip Labs"
-  ],
+  "name": "Craftable Chainmail",
+  "description": "Craft chainmail armors from chainlinks",
+  "authors": ["rootEnginear"],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://github.com/rootEnginear/bta-craftablechainmail",
+    "sources": "https://github.com/rootEnginear/bta-craftablechainmail"
   },
-
   "license": "CC0-1.0",
-
   "environment": "*",
   "entrypoints": {
-    "main": [
-        "turniplabs.examplemod.ExampleMod"
-    ]
+    "main": ["rootenginear.craftablechainmail.CraftableChainmail"]
   },
-  "mixins": [
-      "examplemod.mixins.json"
-  ],
-
+  "mixins": [],
   "depends": {
-    "fabricloader": ">=0.13.3"
+    "fabricloader": ">=0.13.3",
+    "halplibe": ">=2.1.6"
   },
-  "suggests": {
-  }
+  "suggests": {}
 }
