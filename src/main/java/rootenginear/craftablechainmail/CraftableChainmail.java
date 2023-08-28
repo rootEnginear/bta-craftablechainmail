@@ -19,24 +19,24 @@ public class CraftableChainmail implements ModInitializer {
     @Override
     public void onInitialize() {
         // Add Recipes
-        RecipeHelper.Crafting.createRecipe(new ItemStack(Item.armorHelmetChainmail, 1, 218), new Object[]{
+        RecipeHelper.Crafting.createRecipe(new ItemStack(Item.armorHelmetChainmail, 1, 217), new Object[]{
                 "AAA",
                 "A A",
                 'A', Item.chainlink
         });
-        RecipeHelper.Crafting.createRecipe(new ItemStack(Item.armorChestplateChainmail, 1, 240), new Object[]{
+        RecipeHelper.Crafting.createRecipe(new ItemStack(Item.armorChestplateChainmail, 1, 239), new Object[]{
                 "A A",
                 "AAA",
                 "AAA",
                 'A', Item.chainlink
         });
-        RecipeHelper.Crafting.createRecipe(new ItemStack(Item.armorLeggingsChainmail, 1, 232), new Object[]{
+        RecipeHelper.Crafting.createRecipe(new ItemStack(Item.armorLeggingsChainmail, 1, 231), new Object[]{
                 "AAA",
                 "A A",
                 "A A",
                 'A', Item.chainlink
         });
-        RecipeHelper.Crafting.createRecipe(new ItemStack(Item.armorBootsChainmail, 1, 225), new Object[]{
+        RecipeHelper.Crafting.createRecipe(new ItemStack(Item.armorBootsChainmail, 1, 224), new Object[]{
                 "A A",
                 "A A",
                 'A', Item.chainlink
