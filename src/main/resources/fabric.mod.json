@@ -4,7 +4,9 @@
   "version": "${version}",
   "name": "Craftable Chainmail",
   "description": "Craft chainmail armors from chainlinks",
-  "authors": ["rootEnginear"],
+  "authors": [
+    "rootEnginear"
+  ],
   "contact": {
     "homepage": "https://github.com/rootEnginear/bta-craftablechainmail",
     "sources": "https://github.com/rootEnginear/bta-craftablechainmail"
@@ -12,12 +14,14 @@
   "license": "CC0-1.0",
   "environment": "*",
   "entrypoints": {
-    "main": ["rootenginear.craftablechainmail.CraftableChainmail"]
+    "main": [
+      "rootenginear.craftablechainmail.CraftableChainmail"
+    ]
   },
   "mixins": [],
   "depends": {
     "fabricloader": ">=0.13.3",
-    "halplibe": ">=2.1.6"
+    "halplibe": ">=2.1.5"
   },
   "suggests": {}
 }
